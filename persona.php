@@ -3,9 +3,6 @@ class persona{
 public $nombre;
 public  $apellido;
 public $direccion;
-
-
-
 //getters
 public function getNombre(){
 	return  $this->nombre;
@@ -23,10 +20,7 @@ public function setNombre($nombre){
 public function setApellido($apellido){
 	$this-> apellido= $apellido;
 }
-
 public  function setDireccion($direccion){
 	$this ->direccion=$direccion;
-
-
 }
 }
